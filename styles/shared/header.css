@@ -1,0 +1,103 @@
+.home-header{
+  background-color: pink;
+  display: flex;
+  height: 60px;
+
+  align-items: center;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  /*justify-content: space-between;*/
+
+  /*position: fixed;*/
+}
+
+.home-header-left-section {
+  flex: 1;
+  height: 60px;
+  width: 180px;
+  margin-left: 30px;
+}
+
+.dessert-logo {
+ max-width: 100px;
+ max-height: 100%;
+}
+
+.home-header-middle-section {
+  flex: 1;
+  max-width: 850px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.search-bar {
+  flex: 1;
+  font-size: 16px;
+  height: 38px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-button {
+  height: 50px;
+  width: 55px;
+  border: none;
+  background-color: pink;
+  align-items: center;
+}
+
+.search-icon {
+  height: 30px;
+}
+
+.home-header-right-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 450px;
+  justify-content: end;
+  margin-right: 20px;
+}
+
+.orders-link {
+  text-decoration: none;
+  color: black;
+}
+
+.orders-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.cart-text {
+  margin-left: 10px;
+}
+
+.cart-icon {
+  height: 60px;
+  background-color: pink;
+}
+
+.cart-quantity {
+  padding-left: 15px;
+}
+
+.about-me {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.orders-text {
+  width: 93px;
+  text-align: center;
+}

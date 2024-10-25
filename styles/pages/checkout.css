@@ -1,0 +1,166 @@
+.main {
+    max-width: 1100px;
+    padding: 30px 0px 30px 0px;
+
+    margin-top: 120px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 18px;
+}
+
+.order-summary {
+    display: grid;
+    row-gap: 30px;
+}
+
+.checkout-grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 18px;
+    align-items: start;
+}
+
+.cart-item-details-grid {
+    display: grid;
+    align-items: center;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 2500px;
+}
+
+.product-name,
+.product-price,
+.product-quantity-grid {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    color: rgb(245, 89, 89);
+    font-weight: 450;
+    font-size: 19px;
+}
+
+.product-quantity-grid {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.quantity-plus-button,
+.quantity-minus-button {
+    font-size: 15px;
+
+    width: 20px;
+    height: 20px;
+    background-color: rgb(245, 192, 192);
+    border: none;
+    border-radius: 5px;
+}
+
+.quantity-plus-button:hover {
+    background-color: rgb(255, 120, 120);
+}
+
+.quantity-minus-button:hover {
+    background-color: lightgray;
+}
+
+
+.shipping-options-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.shipping-prices-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shipping-option-input,
+.shipping-option-date {
+    margin-bottom: 6px;
+}
+
+.shipping-option-price {
+    text-align: center;
+}
+
+.payment-summary,
+.cart-item-container {
+    border:2px solid rgb(231, 231, 231);
+    padding: 18px;
+}
+
+.cart-item-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-right: 0px;
+    min-width: 710px;
+
+}
+
+.product-name,
+.payment-summary-title,
+.shipping-options-title {
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.shipping-options-container {
+    margin: 0;
+    border-right: 1px solid rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -1px;
+}
+
+.payment-summary-title {
+   text-align: center;
+}
+
+.promo-code-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.promo-code-input {
+    height: 20px;
+    font-size: 15px;
+    color: rgb(255, 120, 120);
+}
+
+.payment-summary-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px 0px 20px 0px;
+}
+
+.payment-summary-money {
+    text-align: end;
+}
+
+.total-row {
+    border-top: 2px solid rgb(231, 231, 231);
+    padding-top: 20px;
+    margin-top: -17px;
+}
+
+.place-order-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.place-order-button {
+    width: 250px;
+    height: 40px;
+}
